@@ -43,7 +43,7 @@ export function HomePage() {
       </div>
       <div className="bg-white dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700 rounded-xl p-4">
         <h2 className="text-lg font-semibold text-gray-800 dark:text-neutral-200 mb-4">
-          Monthly Revenue (Last 12 Months)
+          Monthly Revenue
         </h2>
         <RevenueBarChart data={data} />
       </div>
