@@ -155,7 +155,7 @@ const columns: ColumnDef<Invoice>[] = [
   {
     accessorKey: "client",
     header: "Created",
-    cell: (info) => (
+    cell: (_info) => (
       <span className="text-sm text-gray-600 dark:text-neutral-400">
         {format(new Date(), "dd MMM, HH:mm")}
       </span>

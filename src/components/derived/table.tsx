@@ -60,7 +60,7 @@ export default function TanstackTable<T extends RowData>(
     getExpandedRowModel: getExpandedRowModel(),
     manualPagination,
     pageCount: manualPagination ? controlledPageCount ?? -1 : undefined,
-    getRowId: getRowId ?? ((row: any, index: number) => String(index)),
+    getRowId: getRowId ?? ((_row: any, index: number) => String(index)),
     onRowSelectionChange: onRowSelectionChange,
     initialState: {
       pagination: { pageIndex: 0, pageSize: initialPageSize },
